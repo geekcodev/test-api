@@ -1,0 +1,63 @@
+# EditorConfig для Laravel проекта
+root = true
+
+# Общие настройки
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = true
+
+# PHP файлы
+[*.php]
+indent_style = space
+indent_size = 4
+
+# Blade файлы (обычные)
+[*.blade.php]
+indent_style = space
+indent_size = 4
+
+# Email Blade файлы - НЕ ФОРМАТИРОВАТЬ!
+[resources/views/components/mail/**.blade.php]
+indent_style = space
+indent_size = 0
+trim_trailing_whitespace = false
+
+[resources/views/emails/**.blade.php]
+indent_style = space
+indent_size = 0
+trim_trailing_whitespace = false
+
+[resources/views/vendor/mail/**.blade.php]
+indent_style = space
+indent_size = 0
+trim_trailing_whitespace = false
+
+[resources/views/vendor/notifications/**.blade.php]
+indent_style = space
+indent_size = 0
+trim_trailing_whitespace = false
+
+# CSS
+[*.css]
+indent_style = space
+indent_size = 4
+
+# JavaScript/TypeScript
+[*.{js,ts,jsx,tsx}]
+indent_style = space
+indent_size = 4
+
+# JSON
+[*.json]
+indent_style = space
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 4

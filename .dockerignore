@@ -1,0 +1,46 @@
+# IDE
+.fleet
+.nova
+.vscode
+.zed
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+.docker
+.dockerignore
+docker-compose.local.yml
+docker-compose.dev.yml
+docker-compose.prod.yml
+docker-compose.test.yml
+docker-compose.yml
+/docker/logs
+/docker/Dockerfile*
+
+# Node
+/app/node_modules
+
+# Laravel
+/app/vendor
+/app/.phpunit.result.cache
+/app/.env
+
+# Build
+/app/public/hot
+/app/public/storage
+/app/storage/*.key
+
+# Tests
+/app/tests/
+/app/phpunit.xml
